@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { PHOTOS_GET } from '../../api'
 import PhotoComments from './PhotoComments'
 import styles from './PhotoContent.module.css'
 
@@ -19,7 +18,7 @@ const PhotoContent = ({ data }) => {
               @{photo.author}
             </Link>
             <span className={styles.views}>
-              {PHOTOS_GET.acessos}
+              {photo.acessos}
             </span>
           </p>
           <h1 className='title'>
