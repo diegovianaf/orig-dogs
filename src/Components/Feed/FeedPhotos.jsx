@@ -21,17 +21,17 @@ const FeedPhotos = ({ setModalPhoto }) => {
   if (error) return <Error error={error} />
   if (loading) return <Loading />
   if (data)
-  return (
-    <ul className={`${styles.feed} animeLeft`}>
-      {data.map((photo) => (
-        <FeedPhotosItem
-          key={photo.id}
-          photo={photo}
-          setModalPhoto={setModalPhoto}
-        />
-      ))}
-    </ul>
-  )
+    return (
+      <ul className={`${styles.feed} animeLeft`}>
+        {data.map((photo) => (
+          <FeedPhotosItem
+            key={photo.id}
+            photo={photo}
+            setModalPhoto={setModalPhoto}
+          />
+        ))}
+      </ul>
+    )
   else return null
 }
 
