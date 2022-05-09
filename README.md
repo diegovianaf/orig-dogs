@@ -25,6 +25,8 @@ In this application you have the following functionalities:
 
 ![image](https://user-images.githubusercontent.com/92064022/167512136-5486d03e-aa30-46fe-a391-f3f1d7ab8b9c.png)
 
+![screen-gif](screen-dogs.gif)
+
 ## License
 [MIT](https://github.com/diegovianaf/orig-dogs/blob/main/LICENSE)
 
